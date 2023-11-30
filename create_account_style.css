@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e4d92; 
+}
+
+
+.header-container {
+    background-color: #3498db; 
+    padding: 6px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header-container a {
+    display: inline-block;
+    background-color: #3498db; 
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.header-container a:hover {
+    background-color: #2980b9; 
+}
+
+.create-account-container {
+    text-align: center;
+    margin-top: 1px;
+    color: #ffffff; 
+    padding: 20px;
+}
+
+.create-account-container h2 {
+    color: #ffffff; 
+    margin-top: 1px;
+}
+
+.create-account-container form {
+    margin-top: 10px;
+}
+
+.create-account-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff; 
+    text-align: left;
+}
+
+.create-account-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.create-account-container button {
+    background-color: #3498db; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.create-account-container button:hover {
+    background-color: #2980b9; 
+}
+
+.create-account-container p {
+    margin-top: 10px;
+}
