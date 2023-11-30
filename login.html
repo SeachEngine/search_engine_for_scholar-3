@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+
+    <header class="header-container">
+        <a href="https://www.nextScholar.com">
+            <h2><img src="path/to/your/logo.png" alt=" ">NextScholar</h2>
+        </a>
+    </header>
+    
+    <div class="login-container">
+        <h2>Log in to NextScholar</h2>
+        <form class="login-form">
+            <label for="username">Username or Email:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="LoginValidation()">Login</button>
+        </form>
+        <p id="error-message"></p>
+        <p><a href="#" onclick="forgottenPswd()">Forgot your Password?</a></p>
+        <p>Don't have an account? <a href="#" onclick="accountCreation()">Signup for NextScholar</a></p>
+    </div>
+
+    <script src="login_script.js"></script>
+</body>
+</html>

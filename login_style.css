@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e4d92;
+}
+
+.header-container {
+    background-color: #3498db; /* Blue header background color */
+    padding: 8px;
+    width: 100%;
+    text-align: left;
+    margin-bottom:100px;
+}
+
+.header-container a {
+    display: inline-block;
+    background-color: #3498db; /* Blue button color */
+    color: white;
+    margin: 0;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.header-container a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.login-container {
+    background-color: #fff;
+    margin-bottom: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #3498db;
+    margin-bottom: 35px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #282828;
+    text-align: left;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #2980b9;
+}
+
+.login-form a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
